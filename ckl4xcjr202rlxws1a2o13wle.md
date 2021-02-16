@@ -19,12 +19,12 @@ A community of believers who have thought of getting into High-Frequency Trading
 
 Here are a couple of barriers to entry for retail investors:
 
-- **Lack of Technical Infrastructure:** Running your algorithms on average laptops or average virtual private servers will introduce a lot of latency. Think of below as a simple example of opening up a Youtube video on your browser and waiting for it to load. You waited 1.7 s for this to complete; in this time, someone out there might have completed 100s of trades already. 
+- **Lack of Technical Infrastructure:** Running your algorithms on average laptops or average virtual private servers will introduce a lot of latency. Think of below as a simple example of opening up a Youtube video on your browser and waiting for it to load. You waited for 1.7 s for this to complete; in this time, someone out there might have completed 100s of trades already. 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1613232744810/5Hb-jjSYB.png)
 (Source:  [KeyCDN](https://www.keycdn.com/support/what-is-latency))
 
-- **Access to Data:** Getting "Tick" Level data in the fastest manner possible. A "Tick" is a measure of the minimum upward and downward movement in the security price. Most of the stockbrokers worldwide provide "1minute" data, a minute could have as many as 60-70 ticks in very high volume sessions. 
+- **Access to Data:** Getting "Tick" Level data in the fastest manner possible. A "Tick" is a measure of the minimum upward and downward movement in the security price. Most of the stockbrokers worldwide provide "1minute" data; a minute could have as many as 60-70 ticks in very high volume sessions. 
 
 - **Expensive Co-Locations:** When trading, ultimately, your orders will have to be sent to the exchange to execute, and since you want your orders to be executed before anyone else, you would like to set up shop near an exchange, so there is minimum latency. It can be costly depending on which exchange we are talking about. 
 
@@ -39,7 +39,7 @@ Python is a high-level programming language with its tradeoffs; for the benefit 
 
 - Python also takes a beating when it comes to latency and speed; if any other trader out there can calculate those numbers faster than you, you are out of luck! For latency-sensitive strategies, large enterprises like Goldman Sachs/ JP Morgan would go for `C++`.
 
-*On a side note, an article by the Financial Times from 2013 telling you how every millisecond counts for HFT focused firms. Click  [here](https://www.ft.com/content/2bf37898-b775-11e2-841e-00144feabdc0)  to read.*
+*On a side note, an article by the Financial Times from 2013 telling you how every Millisecond counts for HFT focused firms. Click  [here](https://www.ft.com/content/2bf37898-b775-11e2-841e-00144feabdc0)  to read.*
 
 To end this article, if you are an average retail investor who is planning to build strategies that depend on milliseconds of data, I highly doubt you will be able to pull it off without a significant amount of cost. If you can spend that amount of money, you are not an average retail investor. 🙂
 
