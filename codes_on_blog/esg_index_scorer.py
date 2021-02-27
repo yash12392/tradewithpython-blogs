@@ -21,7 +21,7 @@ index_tickers = df['Symbol'].tolist() #assigning all tickers to a list
 esg_data = pd.DataFrame() #empty df for attaching all ticker's data response
 
 for ticker in index_tickers:
-     print(i) #just FYI to know your code is running
+     print(ticker) #just FYI to know your code is running
      ticker_name = yf.Ticker(ticker)
      try:
           if ticker_name.sustainability is not None: #if no response from Yahoo received, it will pass to next ticker
