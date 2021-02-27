@@ -148,6 +148,8 @@ And that's it, it will take a while to download the whole year's data in one go 
 
 You must have noticed the `try` and `except` method in the code; that's called exception handling; make sure to google more about it later. 
 
+You can also access the Github  [link here](https://github.com/yash12392/tradewithpython-blogs/blob/main/codes_on_blog/bhavcopy_downloader.py)  to access the whole code in one single file.
+
 That's it for today, folks; I hope you enjoyed this article and our approach to download this data programmatically. In the next article, we will discuss more what to do with so many data files and how to store them in time-series format. Remember subscribing to **my newsletter 📬** to get regular updates.  
 
 If you need any help with the above or need some more information, you can ping me on  [Twitter](https://twitter.com/yash_roongta?lang=en)  or [Linkedin.](https://www.linkedin.com/in/yashroongta/)  
