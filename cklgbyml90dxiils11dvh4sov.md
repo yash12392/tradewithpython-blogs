@@ -81,6 +81,8 @@ Readers can download the list of FTSE100 tickers from  [here][1], and the NIFTY5
 [1]:https://docs.google.com/spreadsheets/d/10SD0xGSdOqNZuINJocNoE0Gd8JClXmas5cPj9tmaw28/edit?usp=sharing
 [2]:https://docs.google.com/spreadsheets/d/1Gm1v9-qOJ5ZXhgSEHLYsBPnhd3-zcaGnlmI-eeu8Gdw/edit?usp=sharing
 
+The below implementation uses NIFTY50 as an example, if you would like to see the same for FTSE100, you can open this  [**Google Colab Notebook.**](https://colab.research.google.com/drive/1gFfYGlSSARn5yN_AWocNpRFrOgQNgLaE?usp=sharing) 
+
 ```python
 df = pd.read_csv('/path/to/file.csv') #give the full path of file downloaded
 index_tickers = df['Symbol'].tolist() #assigning all tickers to a list
