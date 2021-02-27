@@ -69,7 +69,7 @@ filtered_df['newMarketCap'] = filtered_df['previousClose'] * filtered_df['shares
 total_index_mcap = filtered_df['newMarketCap'].sum()
 filtered_df['marketWeight'] = ((filtered_df['newMarketCap']/total_index_mcap)*100)
 
-final_df = filtered_df.merge(main_df, how='left', on='symbol')
+final_df = filtered_df.merge(new_esg_df, how='left', on='symbol')
 #for more info on .merge visit https://bit.ly/3pFlYIm
 
 
