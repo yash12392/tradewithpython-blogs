@@ -262,10 +262,10 @@ final_esg_df['mktweightedGovScore'] = (final_esg_df['marketWeight'] * final_esg_
 We are almost there; your data-analysis is complete, all you need to do right now is take the sum of columns `['mktweightedEsg', 'mktweightedEnvScore', 'mktweightedSocScore', 'mktweightedGovScore']`
 
 ```python
-print(f'Total Environment Score: {round(final_esg_df['mktweightedEnvScore'].sum(),2)}')
-print(f'Total Social Score: {round(final_esg_df['mktweightedSocScore'].sum(),2)}')
-print(f'Total Governance Score: {round(final_esg_df['mktweightedGovScore'].sum(),2)}')
-print(f'Total ESG Score: {round(final_esg_df['mktweightedEsg'].sum(),2)}')
+print('Total Environment Score: {}'.format(round(final_esg_df['mktweightedEnvScore'].sum(),2)))
+print('Total Social Score: {}'.format(round(final_esg_df['mktweightedSocScore'].sum(),2)))
+print('Total Governance Score: {}'.format(round(final_esg_df['mktweightedGovScore'].sum(),2)))
+print('Total ESG Score: {}'.format(round(final_esg_df['mktweightedEsg'].sum(),2)))
 ```
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1613787725905/7k7HdOE5U.png)
 
