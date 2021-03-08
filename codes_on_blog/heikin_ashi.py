@@ -1,3 +1,5 @@
+#Inspired From: https://github.com/emreturan/heikin-ashi
+
 def HA(df):
     '''
     The function will take a dataframe and return the Heikin Ashi Price DataFrame
