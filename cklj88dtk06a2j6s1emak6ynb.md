@@ -10,17 +10,25 @@ Hence, I am creating this **new series** for my readers interested in the Indian
 
 This series will span over a couple of articles, and we will be covering the following points in detail in each article. 
 
-1. How to download the **NSE Bhavcopy** File programmatically via Python for the last 5 years. You can look at the sample Bhavcopy Report  [here.](https://www1.nseindia.com/content/historical/EQUITIES/2021/MAR/cm04MAR2021bhav.csv.zip) 
+-  How to download the **NSE Bhavcopy** File programmatically via Python for the last 5 years. You can look at the sample Bhavcopy Report  [here.](https://www1.nseindia.com/content/historical/EQUITIES/2021/MAR/cm04MAR2021bhav.csv.zip) 
 
-2. How to store all the downloaded data in one single file in **time-series format**. 
+%[https://tradewithpython.com/download-end-of-day-stock-prices-for-national-stock-exchange-of-india-using-python]
 
-3. How to adjust your data for **symbol changes** over the last 5 years? 
+- How to store all the downloaded data in one single file in **time-series format**. 
 
-4. How to adjust your data for all **corporate actions** over the last 5 years? (e.g., stock splits, dividends, mergers)
+%[https://tradewithpython.com/how-to-capture-all-nse-bhavcopy-eod-stock-prices-files-into-one-file]
 
-5. Which format/technology to use to **store your stock prices data**and what are the pros and cons? (e.g. SQL Database, .csv, .xlsx)
+- How to adjust your data for **symbol changes** over the last 5 years? 
 
-6. How to refactor all your code into an **Object Oriented Programming** approach for use in future projects?
+%[https://tradewithpython.com/adjust-time-series-data-for-ticker-changes]
+
+#### Work In Progress
+
+- How to adjust your data for all **corporate actions** over the last 5 years? (e.g., stock splits, dividends, mergers)
+
+- Which format/technology to use to **store your stock prices data**and what are the pros and cons? (e.g. SQL Database, .csv, .xlsx)
+
+- How to refactor all your code into an **Object Oriented Programming** approach for use in future projects?
 
 As you must have realized, we will start with baby steps and go from 0 to 100 in this series. Over the last few months, I have tried and tested various methods of what works and what does not work, and I am excited to share all my learnings with you all. 
 
