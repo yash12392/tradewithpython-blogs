@@ -8,7 +8,7 @@ def download_corp_action(driver, action_type):
     The main function which launches uses the undetected_chromedriver's driver to click on the BSE corp action page.
     Params:
         driver = uc.Chrome() [should be defined in the main function, see corporate_actions() to understand more]
-        action_type = list: ['dividend', 'split', 'bonus']
+        action_type = str: ['dividend', 'split', 'bonus']
     '''
 
     #Purpose keys on BSE website
