@@ -26,10 +26,6 @@ This series will span over a couple of articles, and we will be covering the fol
 
 - How to adjust your data for all **corporate actions** over the last 5 years? (e.g., stock splits, dividends, mergers)
 
-- Which format/technology to use to **store your stock prices data**and what are the pros and cons? (e.g. SQL Database, .csv, .xlsx)
-
-- How to refactor all your code into an **Object Oriented Programming** approach for use in future projects?
-
 As you must have realized, we will start with baby steps and go from 0 to 100 in this series. Over the last few months, I have tried and tested various methods of what works and what does not work, and I am excited to share all my learnings with you all. 
 
 The best part I think about this approach is that we are directly downloading the raw data from the official exchange without any third-party manipulations, giving us reliability on the data.
