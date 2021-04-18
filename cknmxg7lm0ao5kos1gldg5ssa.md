@@ -8,7 +8,7 @@ Frankly, learning Python actually to start Algo-Trading has a steep learning cur
 
 These platforms are also an excellent opportunity to learn more about the terminology used when creating algos for trading, **for example, slippage, backtest, brokerage, commission, drawdowns, etc. **
 
-Below is the list of platforms; I have tried to personally analyze them for you with some comments for better decision making. Frankly, the technology behind all of these platforms is amazing, and I envy the founders of each one of these. If you find any material errors in my comments, please do reach out to me to fix them. If I have missed any other No-Code/Low-Code platform based out of India, drop me a line, and I will analyze and add it (giving you full credit 👌)
+Below is the list of platforms; I have tried to personally analyze them for you with some comments for better decision making. Frankly, the technology behind all of these platforms is amazing, and I envy the founders of each one of these. If you find any material errors in my comments, please do reach out to me to fix them. If I have missed any other No-Code/Low-Code platform based out of India, drop me a line, and I will analyze and add it (giving you full credit)
 
 > All the names in the below list have been hyperlinked to the original website; you can click on it to go there directly. 
 
