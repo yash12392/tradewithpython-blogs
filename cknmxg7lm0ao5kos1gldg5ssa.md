@@ -55,11 +55,15 @@ Their product MyCoder allows anyone with a strategy to come and talk to their de
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1618731430711/Xm-lLoe5x.png)
 
-- ** [AlgoBaba:](https://bit.ly/3giFnhc)** AlgoBaba also provides an API Bridge which connects with multiple brokers for fast order execution and risk management. They also have an Expert Coder service where you can book a call with their coders who can build your strategies for a fee and integrate that Algo in any of the external software/charting tools you use. They also provide a VPS to host your algorithm.
+- ** [AlgoBaba:](https://bit.ly/3giFnhc)** AlgoBaba also provides an API Bridge which connects with multiple brokers for fast order execution and risk management. They also have an Expert Coder service where you can book a call with their coders who can build your strategies for a fee and integrate that Algo in any of the external software/charting tools you use. They also provide a VPS to host your algorithm. 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1618731707227/fqxwBgr4px.png)
 
-Phew! 😓 This was a time-consuming piece to research all the platforms. But hopefully, it helps you decide which no-code/low-code platform to use in your algo-trading journey. 
+**Update: **After posting this article, AlgoBaba reached out to me on Twitter to say the below, I think having 100% Trade Signal Security is phenomenal. By IAB, they mean Intelligent API Bridge.
+
+%[https://twitter.com/algobaba/status/1383755962230579201]
+
+**Phew! 😓** This was a time-consuming piece to research all the platforms. But hopefully, it helps you decide which no-code/low-code platform to use in your algo-trading journey. 
 
 As again, I would be more than happy to listen to you on some feedback and any ideas on future articles/content; I thank you for being a reader of TradeWithPython.
 
