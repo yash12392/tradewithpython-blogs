@@ -14,6 +14,8 @@ Below is the list of platforms; I have tried to personally analyze them for you 
 
 > Disclaimer: I am not associated with any of the platforms below, and none have sponsored this post; this is just for informational purposes only.
 
+> Disclaimer: One of the readers of this blog @[Niftytrader](@Alphafinder) has made some very valid points regarding compliance issues with the platforms in the comments below and I have got conflicting views in the industry on the legality of it. Hence, please use these platforms at your own discretion and consult a legal expert if required. TradeWithPython will not be liable for any damages or legal issues. 
+
 ### No-Code Platforms
 
 - ** [TradeTron:](https://bit.ly/3aiCHfG) ** TradeTron is an Algo Strategy Marketplace where portfolio managers can come and build their strategies and sell them to customers for a profit-sharing fee. Customers can also create their own strategies using their simple to use Strategy Builder. The platform also allows you to paper trade and has the ability to connect with the highest number of brokers in India. Below is the pricing for TradeTron. Below is the pricing for TradeTron.
