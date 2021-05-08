@@ -46,6 +46,11 @@ Below is the list of platforms; I have tried to personally analyze them for you 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1618731171973/F3CLFFfiO.png)
 
+- ** [Quantman:](https://www.quantman.in/?locale=en)** Quantman is also a new-entrant in the backtesting and live-trading space. They are also in their Beta-phase at the moment and one thing which I really like about them is that they offer backtesting on Options-based strategies as well, which very few platforms in this space do. Their integration with brokers for live trading is still under construction. Do checkout their free beta trial and give them any feedback you might have.
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1620475149195/BQ-xXRulT.png)
+
+
 ### Low-Code Platforms
 
 -  **[Algoji:](https://bit.ly/3x2kay5)** This platform is also quite famous, but unlike others, it does not allow you to create your own strategies. Instead, AlgoJi provides the fastest APIBridge, which can connect with multiple brokers for the fastest order execution time (50ms latency), which is very, very good; you can also connect this bridge with existing trading software like Amibroker, MT4. It also has a product, VPS4Trading, where they help you host your strategies on a Virtual Server. 
