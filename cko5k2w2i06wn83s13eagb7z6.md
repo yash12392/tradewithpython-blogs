@@ -40,6 +40,8 @@ Most of the Algo-Trading strategies would rely on live stock prices and use WebS
 > Before the list, Disclaimer: I do not work for any broking entities mentioned below, and nor is this any recommendation or affiliate marketing. This information is for your reference purpose only. 
 >> Every Broker Name below is hyperlinked to the relevant API page, and there is no monetary benefit to Trade With Python.
 
+Just so you know, the table is scrollable horizontally, some columns might be hidden based on your screen size.
+
 | Broker | API| SDKs | Websockets | Charges|
 | ------    |    ------   |  ------ | ------ |  ------ |
 | [5Paisa](https://www.5paisa.com/developerapi)| `Trading API` | `Python` <br/>`NodeJS` <br/> `Go` | No | Nil |
