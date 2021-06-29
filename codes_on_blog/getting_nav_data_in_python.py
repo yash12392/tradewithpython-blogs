@@ -9,10 +9,14 @@ Original file is located at
 Author: Shreyans Jain: https://www.linkedin.com/in/shreyans-jain-693655177/
 Article Link on TradeWithPython: https://tradewithpython.com/getting-mutual-funds-net-asset-value-via-python-using-mftools-api
 """
+#installing the required Packages 
+pip install datetime
+pip install mftool 
 
 import pandas as pd
-
 from mftool import Mftool
+from datetime import datetime, timedelta # importing datetime and timedelta form datetime
+
 mf = Mftool()
 
 # Getting the scheme codes of mutual funds
@@ -48,9 +52,23 @@ def HistoricalNav(scheme_code_list, start_date, end_date):
 
   return main_df # Returning the required Dataframe.
 
+# Function to return NAV data 
+def NAV_Data(start,end): 
+  try:
+    values_df = HistoricalNav(scheme_code_list = scheme_code_list[0:5], start_date= start, end_date= end) #to get the data
+    return values_df
+  except KeyError:
+    #if the data is not available on that date, going on previous date to get latest data 
+    start=datetime.strptime(start, '%d-%m-%Y') - timedelta(1) # gets to previous day where the data is available.
+    return NAV_Data(start.strftime("%d-%m-%Y"),end) #returns the required data. 
+
 # Calling the function and saving the output in a variable.
-# Note:- To get the latest NAV set the start_date and end_date as the last traded date in 'dd/mm/yyyy' format.
-values_df = HistoricalNav(scheme_code_list = scheme_code_list[0:5], start_date= '01-05-2021', end_date= '10-05-2021')
+# To get the latest NAV set the start_date and end_date as the last traded date in 'dd/mm/yyyy' format.
+# Note:- To get data of a particular date, enter same start_date and end_date. 
+
+start_date= "07-05-2021" # enter the date in "dd-mm-yyyy" format
+end_date = "15-05-2021" # enter the date in "dd-mm-yyyy" format
+values_df = NAV_Data(start_date,end_date) #calling function NAV_Data
 values_df
 
 # to get the information about a particular scheme code.
